@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gluten&family=Gochi+Hand&family=Rock+Salt&family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/pastel-grid.jpg");
+}
+#header {
+    background-color: #fbf3d4;
+    padding: 35px 20px 25px;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000	;
+    font-family: 'Caveat Brush', cursive; 
+}
+
+p {
+    margin-top: 10px;
+}
+
+a{
+    background-color:#fbf3d4 ;
+    font-size: 30px;
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 37,5%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Salsa', cursive;
+    border: 15px #ac573d;
+    padding: 0 20px 20px 20px;
+}
