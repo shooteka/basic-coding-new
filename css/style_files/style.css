@@ -29,8 +29,7 @@ a{
     width: 500px;
     border: 15px;
     padding: 50px;
-    margin: 20px;
-    margin-left:40%;
+    margin: 20px auto;
     align-items: center;
     justify-content: center;
     font-family: 'Salsa', cursive;
