@@ -82,4 +82,27 @@
 .source ol li a {
     color: #fff;
     text-decoration: none;
+    
 }
+
+/* @media only screen and (max-width: 600px) {
+    .animal-list > li {
+        background: #ca8d54;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .familia-list {
+        display: block;
+    }
+
+    .familia-list li {
+        width: 100%;
+    }
+
+    .animal-list > li {
+        background: #5491ca;
+    }
+} */
+
