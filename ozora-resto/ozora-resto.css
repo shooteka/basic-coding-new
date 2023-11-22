@@ -1,0 +1,74 @@
+body{
+    background-color: darkslategrey;
+}
+#wrapper {
+    height: 3300px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/background.png)
+}
+#bagian-1 {
+    .labu-mangap- {
+        position: relative;
+        top: -200px;
+        right: -35px;
+    }
+    .halloween-menu- {
+        position: relative;
+        bottom: -300px;
+        right: -170px;
+    }
+    .kare- {
+        position: relative;
+        top: -620px;
+        right: -170px;
+    }
+    .ramen- {
+        position: relative;
+        top: -520px;
+        right: -170px;
+    }
+    .hitsumabushi- {
+        position: relative;
+        top: -610px;
+        right: -180px;
+    }
+}
+#bagian-2 {
+    .mitsu-special- {
+        position: relative;
+        top: -250px;
+        right: -80px
+    }
+    .tombol-kare- {
+        position: relative;
+        top: -320px;
+        right: -80px;
+    }
+    .tombol-ramen- {
+        position: relative;
+        top: -322px;
+        right: -110px;
+    }
+    .tombol-hitsumabushi- {
+        position: relative;
+        top: -325px;
+        right: -140px;
+    }
+    .zombie-1- {
+        position: relative;
+        top: -20px;
+        left: -650px;
+    }
+    .zombie-2- {
+        position: relative;
+        top: -190px;
+        left: 450px;
+    }
+    .rumah- {
+        position: relative;
+        top: -240px;
+        right: -680px;
+    }
+}
