@@ -1,7 +1,10 @@
+@import url();
 body{
     background-color: darkslategrey;
+    color: white;
 }
 #wrapper {
+    position: relative;
     height: 3300px;
     max-width: 960px;
     width: 100%;
@@ -9,66 +12,108 @@ body{
     background-image: url(../img/background.png)
 }
 #bagian-1 {
+    position: relative;
+}
     .labu-mangap- {
-        position: relative;
-        top: -200px;
-        right: -35px;
+        position: absolute;
+        top: -30px;
+        left: 30px;
     }
     .halloween-menu- {
-        position: relative;
-        bottom: -300px;
-        right: -170px;
+        position: absolute;
+        bottom: -460px;
+        right: 170px;
     }
     .kare- {
-        position: relative;
-        top: -620px;
-        right: -170px;
+        position: absolute;
+        top: 450px;
+        right: 610px;
     }
     .ramen- {
-        position: relative;
-        top: -520px;
-        right: -170px;
+        position: absolute;
+        top: 500px;
+        right: 410px;
     }
     .hitsumabushi- {
-        position: relative;
-        top: -610px;
-        right: -180px;
+        position: absolute;
+        top: 450px;
+        right: 180px;
     }
-}
 #bagian-2 {
+    position: relative;
+}
     .mitsu-special- {
-        position: relative;
-        top: -250px;
-        right: -80px
+        position: absolute;
+        top: 1060px;
+        right: 60px
     }
     .tombol-kare- {
-        position: relative;
-        top: -320px;
-        right: -80px;
+        position: absolute;
+        top: 1150px;
+        right: 630px;
     }
     .tombol-ramen- {
-        position: relative;
-        top: -322px;
-        right: -110px;
+        position: absolute;
+        top: 1150px;
+        right: 340px;
     }
     .tombol-hitsumabushi- {
-        position: relative;
-        top: -325px;
-        right: -140px;
+        position: absolute;
+        top: 1150px;
+        right: 60px;
     }
     .zombie-1- {
-        position: relative;
-        top: -20px;
-        left: -650px;
+        position: absolute;
+        top: -720px;
+        left: 50px;
     }
     .zombie-2- {
-        position: relative;
-        top: -190px;
+        position: absolute;
+        top: -1900px;
         left: 450px;
+
     }
     .rumah- {
-        position: relative;
+        position: absolute;
         top: -240px;
         right: -680px;
     }
+#bagian-3 {
+    position: relative;
 }
+    .kare-labu- {
+        position: absolute;
+        top: 1650px;
+        right: 700px;
+    }
+    .menu-kare- {
+        position: absolute;
+        top: 1650px;
+        right: 300px;
+    }
+    .isi-kare- {
+        display: block;
+        font-size: 22px;
+        margin-top: 0px;
+        margin-left: 200px;
+        list-style: none;
+        color: ;
+    }
+    .ramen-labu- {
+        position: absolute;
+        top: 1990px;
+        right: 30px;
+    }
+    .menu-ramen- {
+        position: absolute;
+        top: 1970px;
+        right: 420px;
+    }
+    .isi-ramen- {
+        display: block;
+        font-size: 22px;
+        margin-top: 1300px;
+        margin-left: 200px;
+        list-style: none;
+        color: ;
+    }
