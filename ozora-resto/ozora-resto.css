@@ -15,14 +15,15 @@ body{
     position: relative;
 }
     .labu-mangap- {
-        position: absolute;
-        top: -30px;
-        left: 30px;
+        max-width: 1074px;
+        width: 90%;
+        display: block;
+        margin: auto;
     }
     .halloween-menu- {
         position: absolute;
-        bottom: -460px;
-        right: 170px;
+        bottom: ;
+        right: ;
     }
     .kare- {
         position: absolute;
@@ -40,27 +41,33 @@ body{
         right: 180px;
     }
 #bagian-2 {
-    position: relative;
+}
+
+.tombol-container img{
+
 }
     .mitsu-special- {
-        position: absolute;
-        top: 1060px;
-        right: 60px
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    }
+    .tombol {
+        margin: auto;
+        display: block;
     }
     .tombol-kare- {
-        position: absolute;
-        top: 1150px;
-        right: 630px;
+    height: fit-content;
+    max-width: 255px;
+    width: 20%;
     }
     .tombol-ramen- {
-        position: absolute;
-        top: 1150px;
-        right: 340px;
+        height: fit-content;
+    max-width: 255px;
+    width: 20%;
     }
     .tombol-hitsumabushi- {
-        position: absolute;
-        top: 1150px;
-        right: 60px;
+    max-width: 255px;
+    width: 20%;
     }
     .zombie-1- {
         position: absolute;
@@ -91,14 +98,6 @@ body{
         top: 1650px;
         right: 300px;
     }
-    .isi-kare- {
-        display: block;
-        font-size: 22px;
-        margin-top: 0px;
-        margin-left: 200px;
-        list-style: none;
-        color: ;
-    }
     .ramen-labu- {
         position: absolute;
         top: 1990px;
@@ -109,7 +108,17 @@ body{
         top: 1970px;
         right: 420px;
     }
-    .isi-ramen- {
+    .hitsumabushi-labu- {
+        position: absolute;
+        top: 2300px;
+        right: 700px
+    }
+    .menu-hitsumabushi- {
+        position: absolute;
+        top: 2300px;
+        right: 300px;
+    }
+    .isi-hitsumabushi- {
         display: block;
         font-size: 22px;
         margin-top: 1300px;
@@ -117,3 +126,27 @@ body{
         list-style: none;
         color: ;
     }
+#bagian-4 {
+    position: relative;
+}
+    .kupon {
+        position: absolute;
+        top: 2700px;
+        right: 160px;
+    }
+    .akses {
+        position: absolute;
+        top: 2930px;
+        right: 770px;
+    }
+#menu-explanation {
+    position: relative;
+}
+.isi-ramen- {
+    display: flex;
+    font-size: 22px;
+    margin-left: 200px;
+    list-style: none;
+    color: red;
+    width: 100%;
+}
