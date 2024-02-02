@@ -22,8 +22,6 @@ body{
     }
     .halloween-menu- {
         position: absolute;
-        bottom: ;
-        right: ;
     }
     .kare- {
         position: absolute;
@@ -40,12 +38,8 @@ body{
         top: 450px;
         right: 180px;
     }
-#bagian-2 {
-}
 
-.tombol-container img{
 
-}
     .mitsu-special- {
     display: block;
     margin: auto;
@@ -124,7 +118,6 @@ body{
         margin-top: 1300px;
         margin-left: 200px;
         list-style: none;
-        color: ;
     }
 #bagian-4 {
     position: relative;

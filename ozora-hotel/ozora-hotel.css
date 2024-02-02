@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img-hotel/base-hotel.jpg);
+}
+.container{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 450px;
+    left: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 15s infinite;
+}
+@keyframes slide{
+   0%{
+        transform: translateX(0);
+   } 
+   25%{
+        transform: translateX(0);
+   }
+   30%{
+        transform: translateX(-100%);
+   }
+   50%{
+        transform: translateX(-100%);
+   }
+   55%{
+        transform: translateX(-200%);
+   }
+   75%{
+        transform: translateX(-200%);
+   }
+   80%{
+        transform: translateX(0);
+   }
+   100%{
+        transform: translateX(0);
+   }
+}
+img{
+    width: 100%;
+}
+bagian-1{
+    position: relative;
+}
+.ozora-hotel{
+    position: absolute;
+    width: 50%;
+    top: 70px;
+    right: 430px;
+}
+.kanda{
+    position: absolute;
+    width: 40%;
+    top: 300px;
+    right: 400px;
+}
