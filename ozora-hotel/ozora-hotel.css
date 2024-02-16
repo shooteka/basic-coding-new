@@ -33,10 +33,10 @@ body {
         transform: translateX(-100%);
    }
    55%{
-        transform: translateX(-200%);
+        transform: translateX(-198.5%);
    }
    75%{
-        transform: translateX(-200%);
+        transform: translateX(-198.5%);
    }
    80%{
         transform: translateX(0);
@@ -60,6 +60,18 @@ bagian-1{
 .kanda{
     position: absolute;
     width: 40%;
-    top: 300px;
-    right: 400px;
+    top: 50px;
+    right: 550px;
+}
+.snowdrop{
+    position: absolute;
+    width: 60%;
+    top: 3px;
+    right: 390px;
+}
+.deskripsi{
+    position: absolute;
+    width: 30%;
+    top: 600px;
+    right: 650px;
 }

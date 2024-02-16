@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ecede7;
+}
+#bagian-1 {
+    position: relative;
+}
+    .about{
+        max-width: auto;
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .explanation{
+        max-width: auto;
+        width: 1000px;
+        display: block;
+        margin: auto;
+        margin-top: 120px;
+    }
+    .works{
+        display: block;
+        width: 350px;
+        margin-top: 290px;
+        margin-left: 770px;
+    }
+    .photo-button{
+        display: block;
+        width: 400px;
+        margin-top: -60px;
+        margin-left: 150px;
+    }
+    .design-button{
+        display: block;
+        width: 400px;
+        margin-top: -430px;
+        margin-left: 700px;
+    }
+    .writing-button{
+        display: block;
+        width: 400px;
+        margin-top: -430px;
+        margin-left: 1300px;
+    }
+    .photo-base{
+        display: block;
+        width: 1200px;
+        margin-top: 10px;
+        margin-left: 360px;
+    }
+    .photograph-1 {
+        display: block;
+        width: 20%;
+        margin-top: -2200px;
+        margin-left: 500px;
+    }
+    .photograph-2 {
+        display: block;
+        width: 20%;
+        margin-top: -510px;
+        margin-left: 1000px;
+    }
+    .photograph-3 {
+        display: block;
+        width: 20%;
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+    .photograph-4 {
+        display: block;
+        width: 20%;
+        margin-top: -510px;
+        margin-left: 990px;
+    }
+    .photograph-5 {
+        display: block;
+        width: 20%;
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+    .photograph-6 {
+        display: block;
+        width: 20%;
+        margin-top: -510px;
+        margin-left: 1000px;
+    }
